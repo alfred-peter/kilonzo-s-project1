@@ -1,0 +1,161 @@
+.body{
+    background-color: slategray;
+
+}
+.h1{
+  text-align: center;
+}
+
+.navbar{
+    background-color: slategray;
+    background: slategray;
+    border-radius: 8px;
+    padding-right: 3%;
+    padding-left: 3%;
+}
+
+.navdiv{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.logo{
+    font-size: 35px;
+    font-weight: 600;
+    color:black;
+}
+
+li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px;
+}
+
+li a{
+    color: black;
+    font-size: 18px;
+    margin-right: 25px;
+    font-weight: bold;
+
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    font-size: 15px;
+  }
+  
+  .dropdown-content a:hover {
+    background-color:  slategray;
+  }
+  
+  .dropdown:hover .dropdown-content {
+   display:block;
+  }
+  .buttoN{
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    background-color: #7DC8F7;
+    border: 2px solid #1F4E79;
+    color: black;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+  }
+
+  .app{
+    background: white;
+    width: 90%;
+    max-width: 600px;
+    margin: 100px auto 0;
+    border-radius: 10px;
+    padding: 30px;
+  }
+
+  .app h1{
+    font-size: 35px;
+    font-weight: 600;
+    color:black;
+
+
+   }
+   
+   .quiz{
+    padding: 20px;
+   }
+
+   .quiz h2{
+    font-size: 18px;
+    color: black;
+    font-weight: 600;
+   }
+
+   .btn{
+    background: white;
+    font-weight: 600;
+    width: 100%;
+    color: black;
+    border: 2px solid black;
+    margin: 10px 0;
+    padding: 10px;
+    border: radius 4px;
+    cursor: pointer;
+    text-align: left;
+    transition: all;
+   }
+   .btn:hover:not([disabled]){
+    background: black;
+    color: white;
+
+   }
+   .btn:disabled{
+    cursor: no-drop;
+   }
+
+   #next-btn{
+    font-weight: 500;
+    padding: 10px;
+    border: 2px;
+    border-radius: 4px;
+    width: 150px;
+    margin: 20px auto 0;
+    cursor: pointer;
+    border: 0;
+    background: blue;
+    display: none;
+    color: white;
+   }
+
+   .correct{
+    background: green;    
+   }
+   .incorrect{
+    background:red;
+   }
+
+
+
+
+  
